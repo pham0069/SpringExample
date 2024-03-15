@@ -7,6 +7,7 @@
     <groupId>com.diep.example</groupId>
     <artifactId>springExample</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -16,6 +17,7 @@
 
     <modules>
         <module>opentelemetry</module>
-    </modules>d
+        <module>jaeger</module>
+    </modules>
 
 </project>
